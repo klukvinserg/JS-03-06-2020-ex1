@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex1</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div id="commentBlock">
+      <div class="comment">
+        <div class="top">
+          <div class="title">Name 1</div>
+          <div class="date">16:16:05 03:06:2020</div>
+        </div>
+        <div class="description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+          doloribus, praesentium nisi mollitia consequuntur rerum magnam
+          perferendis. Architecto doloribus exercitationem quaerat vel, a,
+          cupiditate placeat consectetur iste ab illo necessitatibus?Placeat
+          quia, voluptate tenetur a dicta explicabo, fuga laborum accusamus
+          numquam id cum inventore, neque molestiae dolore! Fugit, unde
+          voluptates maiores dolore quos tempore aperiam exercitationem in
+          incidunt, ut beatae.
+        </div>
+      </div>
+    </div>
+    
+    <div class="addComment">
+      <h3>Add new massage</h3>
+      <form method="GET" action="" name="mainForm">
+        <label>
+          <b>Your name:</b> <input type="text" name="user-name" id="userName" />
+        </label>
+        <br />
+        <label>
+          <b>Your message:</b><textarea rows="4" cols="" name="text-message" id="textMessage"></textarea>
+        </label>
+        <br />
+        <input type="button" value="SEND" class="send" onclick="myClick()" id="sendBtn"/>
+      </form>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
